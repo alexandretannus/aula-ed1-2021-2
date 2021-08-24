@@ -8,7 +8,7 @@ int main() {
 		soma += contador;
 		contador++;
 		printf("contador: %d \t soma: %d\n", contador, soma);
-	} while (contador<10);
+	} while (soma < 0);
 	
 	return 0;
 }
